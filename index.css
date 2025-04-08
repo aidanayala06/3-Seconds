@@ -1,0 +1,26 @@
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+#attemptChart {
+    min-width: 700px;
+    min-height: 500px;
+    margin: auto;
+}
+
+ #attempts, #summary{
+     min-width: 1000px;
+     margin: auto;
+ }
