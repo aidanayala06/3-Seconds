@@ -1,4 +1,4 @@
-const TARGET_TIME = 3.0;
+const Time = 3.0;
 
 let startTime = null;
 let attempts = [];
@@ -45,7 +45,7 @@ button.addEventListener("click", function () {
         let elapsed = (stopTime - startTime) / 1000;
         attemptCount += 1;
 
-        let difference = Math.abs(elapsed - TARGET_TIME);
+        let difference = Math.abs(elapsed - Time);
         let colorClass = "red";
         if (difference === 0) {
             colorClass = "green";
